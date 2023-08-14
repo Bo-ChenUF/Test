@@ -8,10 +8,12 @@ profile:
   align: right
   image: picture_Bo.jpg
   image_circular: True # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-github"></i> <a href="https://github.com/Bo-ChenUF" title="GitHub">GitHub</a></p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/bo-chen-30790915a/" title="Linkedin">Linkedin</a></p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user=Rm-ZaUUAAAAJ&hl=en" title="Google Scholar">Google Scholar</a></p>
+    
+    
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
