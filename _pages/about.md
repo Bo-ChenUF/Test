@@ -2,16 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. candidate in Mechanical Engineering at University of Florida.
 
 profile:
   align: right
   image: picture_Bo.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: True # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <a href="https://www.linkedin.com/in/bo-chen-30790915a/">
+  <span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span>
+  <span class="label">{{ include.label | default: include.username }}</span>
+  </a>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
